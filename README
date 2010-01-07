@@ -1,0 +1,53 @@
+kcoloredit
+------------------------------------------
+KColorEdit is a tool for KDE that makes more easy and fun edit and 
+create color palettes.
+
+Runtime requirements:
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
+  libkdecore5-4.2.4-1
+  libQtCore4-4.5.3-1
+  libQtGui4-4.5.3-1
+  libstdc++6-4.3.4-3
+  libX11_6-1.3.2-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  automoc4-0.9.88-10
+  binutils-2.19.51-1
+  cmake-2.8.0-11
+  cygport-0.9.81-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
+  make-3.81-2
+
+Canonical website:
+  http://extragear.kde.org/apps/kcoloredit/
+
+Canonical download:
+  ftp://ftp.kde.org/pub/kde/stable/4.3.3/src/extragear/
+
+-------------------------------------------
+
+Build instructions:
+  unpack kcoloredit-2.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kcoloredit-2.0.0-X.cygport all
+
+This will create:
+  /usr/src/kcoloredit-2.0.0-X-src.tar.bz2
+  /usr/src/kcoloredit-2.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 2.0.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

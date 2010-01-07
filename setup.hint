@@ -1,0 +1,5 @@
+category: Graphics KDE
+requires: libgcc1 libkdecore5 libQtCore4 libQtGui4 libstdc++6 libX11_6
+sdesc: "KDE color palette editor"
+ldesc: "KColorEdit is a tool for KDE that makes more easy and fun edit 
+and create color palettes."

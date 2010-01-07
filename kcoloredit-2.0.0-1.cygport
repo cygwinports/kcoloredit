@@ -1,0 +1,6 @@
+KDE4_EXTRAGEAR_VERSION=4.3.3
+inherit kde4
+
+DESCRIPTION="KDE color palette editor"
+
+PATCH_URI="2.0.0-no-undefined.patch"
