@@ -1,0 +1,13 @@
+inherit kde4
+
+NAME="kcoloredit"
+VERSION=2.0.0
+RELEASE=1
+CATEGORY="Graphics"
+SUMMARY="KDE color palette editor"
+DESCRIPTION="KColorEdit is a tool for KDE that makes more easy and fun edit
+and create color palettes."
+SRC_URI="mirror://kde/stable/extragear/kcoloredit-${VERSION}-kde4.4.0.tar.bz2"
+SRC_DIR="kcoloredit-${VERSION}-kde4.4.0"
+
+PATCH_URI="2.0.0-no-undefined.patch"
